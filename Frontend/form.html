@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+
+    <title>Document</title>
+</head>
+<body class="bg-gray-200">
+    
+<div class="relative py-16
+before:absolute before:inset-0 before:w-full before:h-[50%] before:bg-gray-200">
+<div class="relative container m-auto px-6 text-gray-500 md:px-12 xl:px-40">
+
+<div class="m-0 space-y-8 md:w-8/12 lg:w-full">
+<div class="rounded-xl border bg-opacity-50 backdrop-blur-2xl bg-white shadow-xl">
+<div class="lg:grid lg:grid-cols-2">
+   
+    <div class="p-6 sm:p-16">
+        <form action="" class="space-y-8">
+            <div class="space-y-2">
+                <label for="benefit-per-order" class="text-gray-700">Benefit per order</label>
+                <input  type="text" name="benefit-per-order" id="benefit-per-order" 
+                class="block w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600 transition duration-300
+                focus:ring-2 focus:ring-sky-300 focus:outline-none
+                invalid:ring-2 invalid:ring-red-400"
+                >
+            </div>
+            <div>
+                <div class="flex items-center justify-between">
+                    <label for="category" class="text-gray-700 pb-5">Category Name</label>
+                </div>
+                <!-- <label for="countries" class="block mb-2 text-sm font-medium text-gray-900">Select an option</label> -->
+                    <select id="category" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 
+                    block w-full p-2.5 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                    <option selected>Choose a category</option>
+                    <option value="sporting-goods">Sporting Goods</option>
+                    <option value="cleats">Cleats</option>
+                    <option value="shop-by-sport">Shop By Sport</option>
+                    <option value="women-apparel">Women's Apparel</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="boxing-and-mma">Boxing & MMA</option>
+                    <option value="cardio-equipment">Cardio Equipment</option>
+                    <option value="trade-in">Trade-In</option>
+                    <option value="kids-golf-club">Kids' Golf Club</option>
+                    <option value="hunting-and-shooting">Hunting & Shooting</option>
+                    <option value="baseball-and-softball">Baseball & Softball</option>
+                    <option value="men-footwear">Men's Footwear</option>
+                    <option value="camping-and-hiking">Camping & Hiking</option>
+                    <option value="consumer-electronic">Consumer Electronic</option>
+                    <option value="accessories">Accessories</option>
+                    <option value="womens-clothing">Women's Clothing</option>
+                    <option value="crafts">Crafts</option>
+                    <option value="mens-clothing">Men's Clothing</option>
+                    <option value="tennis-and-racquet">Tennis & Racquet</option>
+                    <option value="fitness-accessories">Fitness Accessories</option>
+                    <option value="as-seen-on-tv">As Seen on  TV!</option>
+                    <option value="golf-balls">Golf Balls</option>
+                    <option value="strength-training">Strength Training</option>
+                    <option value="childrens-clothing">Children's Clothing</option>
+                    <option value="lacrosse">Lacrosse</option>
+                    <option value="baby">Baby</option>
+                    <option value="fishing">Fishing</option>
+                    <option value="books">Books</option>
+                    <option value="dvds">DVDs</option>
+                    <option value="cds">CDs</option>
+                    <option value="garden">Garden</option>
+                    <option value="hockey">Hockey</option>
+                    <option value="pet-supplies">Pet Supplies</option>
+                    <option value="health-and-beauty">Health and Beauty</option>
+                    <option value="music">Music</option>
+                    <option value="video-games">Video Games</option>
+                    <option value="golf-gloves">Golf Gloves</option>
+                    <option value="golf-bags-and-carts">Golf Bags & Carts</option>
+                    <option value="golf-shoes">Golf Shoes</option>
+                    <option value="golf-apparel">Golf Apparel</option>
+                    <option value="womens-golf-clubs">Women's Golf Clubs</option>
+                    <option value="mens-golf-clubs">Men's Golf Clubs</option>
+                    <option value="toys">Toys</option>
+                    <option value="water-sports">Water Sports</option>
+                    <option value="indoor/outdoor-games">Indoor/Outdoor Games</option>
+                    </select>
+
+                <!-- <input  type="text" name="category" id="category" 
+                class="block w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600 transition duration-300
+                focus:ring-2 focus:ring-sky-300 focus:outline-none
+                invalid:ring-2 invalid:ring-red-400"
+                > -->
+            </div>
+            
+
+            <div class="flex items-center justify-between">
+                <label for="department" class="text-gray-700 ">Department Name</label>
+            </div>
+            <!-- <label for="countries" class="block mb-2 text-sm font-medium text-gray-900">Select an option</label> -->
+            <select id="department" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 
+            block w-full mt-0 p-2.5 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                <option selected>Choose a department</option>
+                <option value="fitness">Fitness</option>
+                <option value="apparel">Apparel</option>
+                <option value="golf">Golf</option>
+                <option value="footwear">Footwear</option>
+                <option value="outdoors">Outdoors</option>
+                <option value="fan">Fan</option>
+                <option value="shop">Shop</option>
+                <option value="technology">Technology</option>
+                <option value="book-shop">Book Shop</option>
+                <option value="discs-shop">Discs Shop</option>
+                <option value="Pet-shop">Pet Shop</option>
+                <option value="health-and-beauty">Health and Beauty</option>
+                </select>
+
+            <!-- <input  type="text" name="category" id="category" 
+            class="block w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600 transition duration-300
+            focus:ring-2 focus:ring-sky-300 focus:outline-none
+            invalid:ring-2 invalid:ring-red-400"
+            > -->
+            <div class="items-center justify-between">
+                <label for="product" class="text-gray-700 ">Product Name</label>
+                <input  type="text" name="product" id="product" 
+                class="mt-4 block w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600 transition duration-300
+                focus:ring-2 focus:ring-sky-300 focus:outline-none
+                invalid:ring-2 invalid:ring-red-400"
+                >
+            </div>
+
+        </div>
+        
+        
+        <div class="pr-10">
+            <div class="pt-16 justify-between">
+                <div class="flex items-center justify-between">
+                    <label for="market" class="text-gray-700 pb-5">Market Name</label>
+                </div>
+                    <select id="market" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 
+                    block w-full p-3 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                <option selected>Choose a market</option>
+                <option value="fitness">Pacific Asia</option>
+                <option value="apparel">USCA</option>
+                <option value="golf">Africa</option>
+                <option value="footwear">Europe</option>
+                <option value="outdoors">LATAM</option>
+                </select>
+            </div>
+
+            <div>
+                <div class="pt-5 flex items-center justify-between">
+                    <label for="product-price" class="text-gray-700 pb-5">Product Price</label>
+                </div>
+                <input  type="text" name="product-price" id="product-price" 
+                class="block w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600 transition duration-300
+                focus:ring-2 focus:ring-sky-300 focus:outline-none
+                invalid:ring-2 invalid:ring-red-400"
+                >
+            </div>
+            
+            <div class="pt-10 justify-between">
+                <div class="flex items-center justify-between">
+                    <label for="order-city" class="text-gray-700 pb-5">Order City</label>
+                </div>
+                    <select id="order-city" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 
+                    block w-full p-3 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                <option selected>Choose a market</option>
+                <option value="fitness">Pacific Asia</option>
+                <option value="apparel">USCA</option>
+                <option value="golf">Africa</option>
+                <option value="footwear">Europe</option>
+                <option value="outdoors">LATAM</option>
+                </select>
+            </div>
+
+            <div class="pt-16">
+                <button type="submit" 
+                        class="w-full py-3 px-6 rounded-md bg-sky-600
+                            focus:bg-sky-700 active:bg-sky-500">
+                    <span class="text-white">Submit</span>
+                </button>
+            </div>
+            
+        </div>
+        </div>
+             
+
+            
+        </form>
+    </div>
+    
+
+</div>
+</div>
+<div class="text-center space-x-4">
+
+</div>
+</div>
+</div>
+</div>
+                
+</body>
+</html>
